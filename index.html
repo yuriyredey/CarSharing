@@ -1,10 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonty-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!--Style-->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <tittle>Car Sharing</tittle>
+    <!--Tytuł-->
 </head>
+
 <body>
-$END$
+    <header id="home">
+        <!--Atrybut-->
+        <div class="menu">
+            <!--Stworzyłem klase dla menu-->
+            <div class="menu-logo">
+                <!--Srłorzyłem klase dla logo -->
+                <img src="./images/Icon Logo Normal.svg">
+                <!--Dodałem zdjecię -->
+                <a class="menu-logo-text">
+                    <!--A - Hiperłacza--> <span>Car</span>
+                    <!--Element blokowy--> Sharing
+                </a>
+            </div>
+            <ul class="menu-main">
+                <!-- Element dla stworzenia spisu-->
+                <a href="#home">
+                    <li>Home</li>
+                </a>
+                <!--Stworzyłem Hiperłacza oraz dodałem pierwszy jelemet listy (li) -->
+                <a href="#blog">
+                    <li>Blog</li>
+                </a>
+                <a href="#service">
+                    <li>Service</li>
+                </a>
+                <a href="#contact">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+
+        <div class="banner">
+            <h1>Car Sharing</h1> <!-- Dodałem nagłółek do bannera -->
+            <p class="banner-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <!-- Dodałem tekst do paragrafu w bannerze-->
+            <div class="banner-button">
+                <!--Dodałem przycisk -->
+                <button class="header-button-right">SHARE A CAR</button> <!-- Przycisk-->
+                <button class="header-button-left">KEY FEATURES</button>
+            </div>
+        </div>
+
+        <div class="header-arrow">
+            <img src="./images/Icon Arrow Down.svg">
+            <!--Dodałem strzałke-->
+        </div>
+
+    </header> <!-- Górna część -->
+
+    <section id="blog" class="blog">
+        <!--Dodałem sekcje o atrybucie oraz klasie "blog"-->
+        <h2 class="header-blog"><span>Blog</span></h2>
+        <!--Nadgłółek -->
+        <div class="articles">
+            <article class="article1">
+                <!-- Stłorzyłem class dla pierwszego artukuły w blogu -->
+                <img class="articel-img" src="./images/photo1.png">
+                <h3>Lorem ipsum sit dolor</h3> <!-- Nadgłółek-->
+                <p class="article-text">Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua</p>
+                <button class="article-button">READ MORE</button>
+            </article>
+
+            <article class="article2">
+                <!-- Stłorzyłem class dla drugiego artukuły w blogu -->
+                <img class="articel-img" src="./images/photo2.png">
+                <h3>Lorem ipsum sit dolor</h3> <!-- Nadgłółek-->
+                <p class="article-text">Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua</p>
+                <button class="article-button">READ MORE</button>
+            </article>
+
+            <article class="article3">
+                <!-- Stłorzyłem class dla trzeciego artukuły w blogu -->
+                <img class="articel-img" src="./images/photo3.png">
+                <h3>Lorem ipsum sit dolor</h3> <!-- Nadgłółek-->
+                <p class="article-text">Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua</p>
+                <button class="article-button">READ MORE</button>
+            </article>
+        </div>
+    </section> <!-- Blog część 2-->
+
+    <section id="service" class="service">
+        <h2 class="header-service">SERVICE</h2>
+        <div class="service-articles">
+            <div class="service-article1">
+                <img class="service-article-img" src="./images/mini1.png">
+                <h3 class="service-article-header">Lorem ipsum sit dolor</h3>
+                <p class="service-articles-text">Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna.</p>
+                <button class="service-article-button">READ MORE</button>
+            </div>
+
+            <div class="service-article2">
+                <img class="service-article-img" src="./images/mini2.png">
+                <h3 class="service-article-header">Lorem ipsum sit dolor</h3>
+                <p class="service-articles-text">Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna.</p>
+                <button class="service-article-button">READ MORE</button>
+            </div>
+
+            <div class="service-article3">
+                <img class="service-article-img" src="./images/mini3.png">
+                <h3 class="service-article-header">Lorem ipsum sit dolor</h3>
+                <p class="service-articles-text">Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna.</p>
+                <button class="service-article-button">READ MORE</button>
+            </div>
+
+            <div class="service-article4">
+                <img class="service-article-img" src="./images/mini4.png">
+                <h3 class="service-article-header">Lorem ipsum sit dolor</h3>
+                <p class="service-articles-text">Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna.</p>
+                <button class="service-article-button">READ MORE</button>
+            </div>
+        </div>
+    </section>
+    <!--Service część 3-->
+
+    <section id="contact" class="contact">
+        <h2 class="header-contact">CONTACT</h2>
+        <div class="contact-form">
+            <!-- Stworzyłem forme - tabele -->
+            <img class="contact-form-img" src="./images/Form Photo.png">
+            <div class="contact-form-inputs">
+                <input class="input-text" type="text" placeholder="Type your name">
+                <input class="input-text" type="text" placeholder="Type your email">
+                <input class="input-textarea" type="textarea" placeholder="Type your message">
+
+                <label class="checkbox">
+                    <input class="lable-checkbox" type="checkbox">
+                    <span></span>
+                    <a class="input-checkbox-text">I hereby give consent for my personal data included in
+                        my application to be processed for the purposes of the
+                        recruitment process under the European Parliament’s and
+                        Council of the European Union Regulation on the Protection
+                        of Natural Persons as of 27 April 2016, with regard to the
+                        processing of personal data and on the free movement of such data,
+                        and repealing Directive 95/46/EC (Data Protection Directive)</a>
+                </label>
+                <button class="form-button">SEND</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <section class="footer-container">
+            <div class="footer-logo">
+                <img class="footer-logo-img" src="./images/LogoFooter.svg">
+                <a class="footer-logo-text"><span>Car</span>Sharing</a>
+            </div>
+            <div class="footer-list">
+                <ul class="footer-list1">
+                    <li>Home page</li>
+                    <li>Home page</li>
+                    <li>About us</li>
+                    <li>Gallery</li>
+                    <li>Share regulation</li>
+                </ul>
+                <ul class="footer-list2">
+                    <li>Price</li>
+                    <li>Our fleet</li>
+                    <li>Our clients</li>
+                    <li>contact</li>
+                </ul>
+                <a class="footer-text">Copyright © Coders Lab</a>
+            </div>
+        </section>
+    </footer>
 </body>
+
 </html>
